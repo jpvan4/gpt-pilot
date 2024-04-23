@@ -1,0 +1,825 @@
+repo_name: jpvan4/gpt-pilot
+report_id: d113065865789565e7d758d712b54db7
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-23T17:05:59+00:00'
+requested_by: LeonOstrez
+provider: github
+branch: main
+detected_tools_count: 58
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot
+  detection_source: Repo Metadata
+- name: EJS
+  description: An Embedded JavaScript templating Language
+  website_url: https://ejs.co/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/jpvan4/gpt-pilot
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot
+  detection_source: Repo Metadata
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 4.4.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 8.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Aaron Job
+  last_updated_on: 2023-09-10 02:26:55.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Senko Rasic
+  last_updated_on: 2023-11-14 20:35:24.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicholas Albion
+  last_updated_on: 2023-10-05 09:39:01.000000000 Z
+- name: Claude
+  description: A next-generation AI assistant for your tasks, no matter the scale
+  website_url: https://www.anthropic.com/product
+  version: 0.19.1
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101883/default_fddf1fbe1d52baf4dac573b2b7fc24b78cc729b1.jpg
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+  vulnerabilities:
+  - name: Internationalized Domain Names in Applications (IDNA) vulnerable to denial
+      of service from specially crafted inputs to idna.encode
+    cve_id: CVE-2024-3651
+    cve_url: https://github.com/advisories/GHSA-jjg7-2v4v-x38h
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: '3.7'
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: anthropic
+  description: The official Python library for the anthropic API
+  package_url: https://pypi.org/project/anthropic
+  version: 0.19.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-07 19:23:41.000000000 Z
+- name: blessed
+  description: A thin
+  package_url: https://pypi.org/project/blessed
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20379/default_d29e85c36eeb805d0709ec143893b4b936254dbe.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2023.7.22
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 3.3.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicholas Albion
+  last_updated_on: 2023-09-27 01:37:15.000000000 Z
+- name: distro
+  description: Distro - an OS platform information API
+  package_url: https://pypi.org/project/distro
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20579/default_c2fe08b928beca268da55c7fc17121eb06b5e794.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: peewee
+  description: A little orm
+  package_url: https://pypi.org/project/peewee
+  version: 3.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19995/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.40
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.9.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-11-04 22:14:31.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.9
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Senko Rasic
+  last_updated_on: 2023-11-03 21:07:32.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: python-editor
+  description: Programmatically open an editor, capture the result
+  package_url: https://pypi.org/project/python-editor
+  version: 1.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: questionary
+  description: Python library to build pretty command line user prompts ⭐️
+  package_url: https://pypi.org/project/questionary
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Senko Rasic
+  last_updated_on: 2023-11-03 21:07:32.000000000 Z
+- name: readchar
+  description: Utilities to read single characters and key-strokes
+  package_url: https://pypi.org/project/readchar
+  version: 4.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: regex
+  description: Alternative regular expression module, to replace re
+  package_url: https://pypi.org/project/regex
+  version: 2023.10.3
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-28 08:24:13.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: LeonOstrez
+  last_updated_on: 2023-07-27 06:47:34.000000000 Z
+- name: termcolor
+  description: ANSII Color formatting for output in terminal
+  package_url: https://pypi.org/project/termcolor
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20014/default_9e735547ab71630330a9e635a78e5cedca9ba560.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nicholas Albion
+  last_updated_on: 2023-09-27 01:37:15.000000000 Z
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: yaspin
+  description: Yet Another Terminal Spinner
+  package_url: https://pypi.org/project/yaspin
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20588/default_efc3d125c24b651426eccaf69801dac696e09fd6.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: CRD716
+  last_updated_on: 2023-10-23 04:24:30.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 5.1.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
+  vulnerabilities:
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 5.1.7
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.64
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: connect-flash
+  description: Flash message middleware for Connect
+  package_url: https://www.npmjs.com/connect-flash
+  version: 0.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17693/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: connect-mongo
+  description: MongoDB session store for Express and Connect
+  package_url: https://www.npmjs.com/connect-mongo
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17588/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.34.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/node_express_mongoose/package.json
+  detection_source: pilot/templates/tpl/node_express_mongoose/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-02-11 00:56:51.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/jpvan4/gpt-pilot/blob/main/pilot/templates/tpl/javascript_react/package.json
+  detection_source: pilot/templates/tpl/javascript_react/package.json
+  last_updated_by: Senko Rasic
+  last_updated_on: 2024-03-20 01:37:06.000000000 Z
